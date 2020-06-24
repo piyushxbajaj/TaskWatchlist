@@ -39,7 +39,7 @@ class BeerListPageState extends State<BeerListPage> {
                         new Text("ABV: " + beer['value'],
                             style: TextStyle(
                                 fontWeight: FontWeight.normal, fontSize: 20)),
-                        new Image.asset(beer['first_image'], height: 200)
+                        new Image.asset(beer['first_image'], height: 30)
                       ],
                     ),
                   );

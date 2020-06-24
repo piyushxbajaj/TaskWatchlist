@@ -4,8 +4,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -13,8 +13,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -22,8 +22,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -31,8 +31,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -40,8 +40,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -49,8 +49,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -58,8 +58,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -67,8 +67,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   },
   {
@@ -76,8 +76,8 @@
     "name": "Tesla Inc.",
     "date": "3 Aug, 2020 03:59 IST",
     "value": "234.34",
-    "first_image": "/images/upGood.png",
-    "second_image": "/images/greenUpDouble.png",
+    "first_image": "images/upGood.png",
+    "second_image": "images/greenUpDouble.png",
     "percent": "75.60(0.65%)"
   }
 ]
