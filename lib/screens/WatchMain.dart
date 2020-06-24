@@ -21,14 +21,23 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-        length: 3,
+        length: 4,
         child: Scaffold(
           appBar: AppBar(
             bottom: TabBar(
               tabs: [
-                Tab(icon: Icon(Icons.directions_car)),
-                Tab(icon: Icon(Icons.directions_transit)),
-                Tab(icon: Icon(Icons.directions_bike)),
+                Tab(
+                  text: 'First',
+                ),
+                Tab(
+                  text: 'Second',
+                ),
+                Tab(
+                  text: 'Third',
+                ),
+                Tab(
+                  text: 'Fourth',
+                ),
               ],
             ),
             title: Text('Watch List'),

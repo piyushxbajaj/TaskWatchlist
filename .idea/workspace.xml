@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da9c8e0-2e57-4a6d-b6b0-021d03d29607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/WatchMain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/WatchMain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/WatchMain.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -50,13 +52,25 @@
       <option name="presentableId" value="Default" />
       <updated>1593012664527</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1593024624250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593024624250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="34" key="CommitChangelistDialog2" timestamp="1593024563411">
+    <state x="312" y="34" key="CommitChangelistDialog2" timestamp="1593024619351">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="312" y="34" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1593024563411" />
+    <state x="312" y="34" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1593024619351" />
     <state width="1325" height="94" key="GridCell.Tab.0.bottom" timestamp="1593023191407">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
@@ -73,14 +87,22 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1325" height="94" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1593023191407" />
-    <state x="293" y="176" key="Vcs.Push.Dialog.v2" timestamp="1593024449278">
+    <state x="65" y="75" key="SettingsEditor" timestamp="1593025477387">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="293" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1593024449278" />
+    <state x="65" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1593025477387" />
+    <state x="293" y="176" key="Vcs.Push.Dialog.v2" timestamp="1593024653390">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="293" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1593024653390" />
     <state x="100" y="123" width="914" height="627" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593022280196">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="100" y="123" width="914" height="627" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.827@0.23.1440.827" timestamp="1593022280196" />
+    <state x="343" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593025647188">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="343" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.827@0.23.1440.827" timestamp="1593025647188" />
     <state x="223" y="174" width="670" height="676" key="search.everywhere.popup" timestamp="1593021665132">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
