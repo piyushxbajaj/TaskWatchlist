@@ -48,7 +48,10 @@ flutter:
   assets:
     - images/
     - assets/tesla_dat.json
-
+  fonts:
+    - family:  Custom_icons_iconsdart
+      fonts:
+        - asset: fonts/Custom_icons_iconsdart.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

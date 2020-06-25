@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:task1/custom_icons_iconsdart_icons.dart';
 import 'package:task1/screens/list/list.dart';
+//import Customiconsiconsdart from '../lib/custom_icons_iconsdart.dart';
+//import 'package:task1/screens/lib/custom_icons_iconsdart_icons.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -10,7 +13,7 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-  int selectedIndex = 0;
+  int selectedIndex = 2;
   final widgetOptions = [
     Text('Beer List'),
     Text('Add new beer'),
@@ -24,50 +27,70 @@ class HomePageState extends State<HomePage> {
         length: 4,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.white,
             bottom: TabBar(
+              labelStyle: TextStyle(color: Colors.black),
+              unselectedLabelStyle:
+                  TextStyle(color: Colors.black, fontSize: 19),
+              unselectedLabelColor: Colors.grey,
+              labelColor: Colors.black,
               tabs: [
                 Tab(
-                  text: 'First',
+                  text: 'Indices',
                 ),
                 Tab(
-                  text: 'Second',
+                  text: 'Stocks',
                 ),
                 Tab(
-                  text: 'Third',
+                  text: 'Mutual Fund',
                 ),
                 Tab(
-                  text: 'Fourth',
+                  text: 'Forex',
                 ),
               ],
             ),
-            title: Text('Watch List'),
+            title: Text(
+              ': Watch List',
+              style: TextStyle(color: Colors.black, fontSize: 30),
+            ),
             centerTitle: false,
           ),
           body: Center(
             child: widgetOptions.elementAt(selectedIndex),
           ),
           bottomNavigationBar: BottomNavigationBar(
-            type: BottomNavigationBarType.fixed,
+            unselectedLabelStyle: TextStyle(color: Colors.grey),
+            showUnselectedLabels: true,
+
+            unselectedItemColor: Color.fromRGBO(163, 163, 163, 1), //Grey-ish
+            selectedItemColor: Color.fromRGBO(7, 9, 32, 1), //Black-ish
+            type: BottomNavigationBarType.shifting,
+
+//            fixedColor: Colors.white,
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
-                icon: Icon(Icons.local_drink),
-                title: Text('Beers'),
+                icon: Icon(Icons.home),
+                title: Text(
+                  'Home',
+//                  style: TextStyle(color: Colors.green),
+                ),
+//                backgroundColor: Colors.blue,
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.add_a_photo),
-                title: Text('New Beer'),
+                icon: Icon(Custom_icons_iconsdart.customIcon),
+                title: Text('News'),
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.favorite),
-                title: Text('Favourites'),
+                icon: Icon(Icons.star),
+                title: Text('Watchlist'),
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.favorite),
-                title: Text('Favourites'),
+                icon: Icon(Icons.person_outline),
+                title: Text('Profile'),
               ),
             ],
             currentIndex: selectedIndex,
-            fixedColor: Colors.deepPurple,
+//            fixedColor: Colors.deepPurple,
             onTap: onItemTapped,
           ),
         ));
@@ -79,55 +102,3 @@ class HomePageState extends State<HomePage> {
     });
   }
 }
-//import 'package:flutter/material.dart';
-//
-//class Home extends StatefulWidget {
-//  @override
-//  State<StatefulWidget> createState() {
-//    return _HomeState();
-//  }
-//}
-//
-//class _HomeState extends State<Home> {
-//  int _currentIndex = 0;
-//  final List<Widget> _children = [];
-//  @override
-//  Widget build(BuildContext context) {
-//    return Scaffold(
-//      appBar: AppBar(
-//        title: Text('Watchlist'),
-//        centerTitle: false,
-//      ),
-//      body: _children[_currentIndex],
-//      bottomNavigationBar: BottomNavigationBar(
-//        onTap: onTabTapped,
-//        currentIndex: _currentIndex,
-//        type: BottomNavigationBarType.fixed,
-//        items: [
-//          new BottomNavigationBarItem(
-//            icon: new Icon(Icons.home),
-//            title: new Text('Home'),
-//          ),
-//          new BottomNavigationBarItem(
-//            icon: new Icon(Icons.mail),
-//            title: new Text('News'),
-//          ),
-//          new BottomNavigationBarItem(
-//            icon: Icon(Icons.person),
-//            title: Text('Watchlist'),
-//          ),
-//          BottomNavigationBarItem(
-//            icon: Icon(Icons.call),
-//            title: Text('Profile'),
-//          )
-//        ],
-//      ),
-//    );
-//  }
-//
-//  void onTabTapped(int index) {
-//    setState(() {
-//      _currentIndex = index;
-//    });
-//  }
-//}
