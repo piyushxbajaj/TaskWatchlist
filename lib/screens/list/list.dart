@@ -30,16 +30,35 @@ class BeerListPageState extends State<BeerListPage> {
                     child: new Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
-                        new Text("Name: " + beer['name'],
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 24)),
-                        new Text("Country: " + beer['date'],
+                        Row(
+                          children: <Widget>[
+                            new Text(beer['name'],
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 30)),
+                            new SizedBox(
+                              width: 110,
+                            ),
+                            new Text(beer['value'],
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 30)),
+                          ],
+                        ),
+                        new Text(beer['date'],
                             style: TextStyle(
                                 fontWeight: FontWeight.normal, fontSize: 20)),
-                        new Text("ABV: " + beer['value'],
-                            style: TextStyle(
-                                fontWeight: FontWeight.normal, fontSize: 20)),
-                        new Image.asset(beer['first_image'], height: 30)
+                        Row(
+                          children: <Widget>[
+                            SizedBox(
+                              width: 260,
+                              height: 10,
+                            ),
+                            new Image.asset(beer['first_image'], height: 30),
+                            SizedBox(
+                              width: 40,
+                            ),
+                            new Image.asset(beer['second_image'], height: 30)
+                          ],
+                        ),
                       ],
                     ),
                   );

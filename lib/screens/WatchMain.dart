@@ -15,10 +15,10 @@ class HomePage extends StatefulWidget {
 class HomePageState extends State<HomePage> {
   int selectedIndex = 2;
   final widgetOptions = [
-    Text('Beer List'),
-    Text('Add new beer'),
+    Text('Home'),
+    Text('News'),
     new BeerListPage(),
-    Text('Hello')
+    Text('Profile')
   ];
 
   @override
@@ -30,8 +30,10 @@ class HomePageState extends State<HomePage> {
             backgroundColor: Colors.white,
             bottom: TabBar(
               labelStyle: TextStyle(color: Colors.black),
-              unselectedLabelStyle:
-                  TextStyle(color: Colors.black, fontSize: 19),
+              unselectedLabelStyle: TextStyle(
+                  color: Colors.black,
+                  fontSize: 19,
+                  fontFamily: 'SF_UI_Display_Regular'),
               unselectedLabelColor: Colors.grey,
               labelColor: Colors.black,
               tabs: [

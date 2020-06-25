@@ -52,6 +52,9 @@ flutter:
     - family:  Custom_icons_iconsdart
       fonts:
         - asset: fonts/Custom_icons_iconsdart.ttf
+    - family:  SF_UI_Display_Regular
+      fonts:
+        - asset: fonts/SF-UI-Display-Regular.otf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
